@@ -1,0 +1,9 @@
+baseURL = "ec2-18-218-47-40.us-east-2.compute.amazonaws.com:1313/"
+languageCode = "en-gb"
+title = "Trepanning IO Blog Site"
+theme = "hugo-theme-bootstrap4-blog"
+enableGitInfo = true
+
+[permalinks]
+  post = "/:year/:month/:title/"
+  page = "/:slug/"
