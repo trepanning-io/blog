@@ -3,13 +3,11 @@ title: "Docker != VM"
 date: 2019-02-01T16:10:55Z
 draft: false
 ---
-# Docker != Virtual Machine
-
 Despite the growing use of containers over recent years there is still some confusion as to the difference between a container and a virtual machine. Most people understand they are both virtualization technologies but are a little hazy on the differences.
 
 The aim of this repo is to help clarify the difference. In a nutshell, the difference is a VM seperates the kernel, file system and networking stack from the host machine. Docker separates only the file system, networking stack and uses a thing called cgroups to isolate the process(es) from the host machine. With Docker both the container and the host use the same kernel.
 
-You are welcome to clone/fork and play with the [code examples](https://github.com/trepanning-oi/docker-aint-a-vm) as you see fit. Some people (myself included) learn best by playing with things themselves.
+You are welcome to clone/fork and play with the [code examples](https://github.com/trepanning-io/docker-aint-a-vm) as you see fit. Some people (myself included) learn best by playing with things themselves.
 
 Contained in the repo are multiple containers that all implement the classic "Hello World!" program. It's so classic even Docker uses it as the validation step to prove Docker has installed correctly.
 
