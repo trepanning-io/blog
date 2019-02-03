@@ -1,19 +1,18 @@
-baseURL = "ec2-18-218-47-40.us-east-2.compute.amazonaws.com:1313/"
+baseURL = "https://trepanning-io.github.io/"
 languageCode = "en-gb"
 title = "Trepanning IO Blog Site"
-theme = "hugo-theme-bootstrap4-blog"
+theme = "m10c"
 enableGitInfo = true
+enableemoji = true
 
 #[permalinks]
 #  post = "/:year/:month/:title/"
 #  page = "/:slug/"
 
 [params]
-  # Site author
   author = "David Gethings"
-
-  # Description/subtitle for homepage (can be Markdown)
-  description = "A blog covering NRE and Network Infrastructure as Code"
+  description = "A blog covering NRE, Network Infrastructure as Code and modern networking for Cloud computing"
+  GitHubUser = "trepanning-io"
 
   # Show header (default: true)
   #header_visible = true
@@ -54,12 +53,17 @@ enableGitInfo = true
     # How many posts to show on the sidebar (Default: 5)
     #num_recent_posts = 2
 
-  [params.social]
+#  [params.social]
     # Optional, used for attribution in Twitter cards (ideally not a person
     # for example: nytimes, flickr, NatGeo, etc).
     # See: https://dev.twitter.com/cards/types/summary-large-image
-    twitter = "trepanning_io"
+#    twitter = "trepanning_io"
 
+[[params.social]]
+  name = "github"
+  url = "https://github.com/trepanning-io/"
+
+  
 # Default content language for Hugo 0.17's multilingual support (default is "en")
 # See: https://github.com/spf13/hugo/blob/master/docs/content/content/multilingual.md
 #DefaultContentLanguage = "en"
